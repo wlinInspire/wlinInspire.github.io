@@ -1,0 +1,57 @@
+# Site settings
+title:          InspireR
+description:    "R from Inspire"
+url:            "https://wlinInspire.github.io"
+
+# Google Analytics
+google_analytics: UA-111596823-1
+
+# Author
+author:
+  name:         Wei Lin
+  url:          https://wlinInspire.github.io
+  email:        weilin0929@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: https-wlininspire-github-io
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: weilin0929@gmail.com
+  facebook: wei.lin.3517
+  flickr:
+  github: wlininspire
+  instagram:
+  linkedin: weilinla
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: WeiLin12661245
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
