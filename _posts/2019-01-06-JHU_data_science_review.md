@@ -4,7 +4,7 @@ title: A Review of JHU Data Science Specialization
 mathjax: true
 ---
 
-When I first joined Inspire, I actually have very limited knowledge of data science modeling and programming experience. In order to get myself up to speed, I searched online for a self-paced MOOC. One course that came up is the data science specialization from Johns Hopkins University on Coursera. Several reasons that I finally chose this specialization are:
+When I first joined Inspire, I actually had very limited data science knowledge and programming experience. In order to get myself up to speed, I searched online for a self-paced MOOC. One course that came up was the data science specialization from Johns Hopkins University on Coursera. Several reasons that I finally chose this specialization are:
 
 1. It has decent online review and rating.
 2. It is an R based course/specialization.
