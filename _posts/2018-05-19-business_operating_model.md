@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Business Operating System at Inspire
+title: Building Business Operating System in R at Inspire
 mathjax: true
 ---
 
