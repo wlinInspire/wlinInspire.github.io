@@ -7,6 +7,10 @@ permalink: /publications/
 [Google Scholar](https://scholar.google.com/citations?user=k6ZuWzUAAAAJ&hl=en){:target='_blank'}
 
 ### Journal
+1. Wei Lin, Chaoyong Li, Zhihua Qu, and Marwan Simaan,
+"Distributed Formation Control with Open-Loop Nash Strategy",
+_Automatica_, to appear, 2019
+[Link](){:target='_blank'}
 1. Wei Lin, Zhihua Qu, and Marwan Simaan,
 "Nash strategies for pursuit-evasion differential games involving limited observations",
 _IEEE Transactions on Aerospace and Electronic Systems_, vol. 51, no. 2, pp. 1347-1356, 2015
