@@ -9,15 +9,15 @@ permalink: /publications/
 ### Journal
 1. Wei Lin, Chaoyong Li, Zhihua Qu, and Marwan Simaan,
 "Distributed Formation Control with Open-Loop Nash Strategy",
-_Automatica_, to appear, 2019
-[Link](){:target='_blank'}
+_Automatica_, vol.106, pp.266-273, 2019
+[Link](https://www.researchgate.net/publication/333478243_Distributed_formation_control_with_open-loop_Nash_strategy){:target='_blank'}
 1. Wei Lin, Zhihua Qu, and Marwan Simaan,
 "Nash strategies for pursuit-evasion differential games involving limited observations",
 _IEEE Transactions on Aerospace and Electronic Systems_, vol. 51, no. 2, pp. 1347-1356, 2015
 [Link](http://www.eecs.ucf.edu/~qu/Journals/2015%20IEEE%20TAES.pdf){:target='_blank'}
 1. Wei Lin, "Distributed UAV formation control using differential game approach",
 _Aerospace Science and Technology_, vol. 35, pp. 54-62, 2014
-[Link](https://www.researchgate.net/profile/Wei_Lin42/publication/279206363_Distributed_game_strategy_design_with_application_to_multi-agent_formation_control/links/5590f2db08aed6ec4bf681ad.pdf){:target='_blank'}
+[Link](https://www.researchgate.net/publication/260805171_Distributed_UAV_formation_control_using_differential_game_approach){:target='_blank'}
 1. Ali Maknouninejad, Wei Lin, Hendro Harno, Zhihua Qu, and Marwan Simaan,
 "Cooperative control for self-organizing microgrids and game strategies for optimal dispatch of distributed renewable generations",
 _Energy Systems_, vol. 3 no. 1, pp. 23-60, 2012
