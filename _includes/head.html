@@ -1,35 +1,27 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  {% seo %}
+    {% seo %}
 
-  <meta name="google-site-verification" content="BXddJT-DMHQuASZa63eDYpEpYOAlsZbuEberPRnG-Po" />
+    <meta name="google-site-verification" content="BXddJT-DMHQuASZa63eDYpEpYOAlsZbuEberPRnG-Po" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-       <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-             processEscapes: true
-           }
-         });
-       </script>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+    <!-- RSS -->
+    {% feed_meta %}
 
-  <!-- RSS -->
-  {% feed_meta %}
-
-  <!-- Google Analytics-->
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
+    <!-- Google Analytics -->
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
 </head>

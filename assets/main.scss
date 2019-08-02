@@ -3,3 +3,21 @@
 ---
 
 @import 'tale';
+
+.nav-title {
+    color: dodgerblue; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+main {
+    margin-top: 10px;
+}

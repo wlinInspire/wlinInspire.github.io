@@ -1,18 +1,18 @@
 <nav class="nav">
-  <div class="nav-container">
-    <a href="{{ site.baseurl }}/">
-      <h2 class="nav-title">{{ site.title }}</h2>
-    </a>
-    <ul>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-      <li><a href="{{ '/publications' | prepend: site.baseurl }}">Publications</a></li>
-      <li><a href="{{ site.baseurl }}/">Posts</a></li>
-      <li><a href="https://www.r-bloggers.com" target='blank'>R Bloggers</a></li>
-      <li>
-        <form action="../search.html" method="get">
-          <input type="search" name="query" id="search_box" placeholder="Search...">
-        </form>
-      </li>
-    </ul>
-  </div>
+	<div class="nav-container">
+		<a href="{{ site.baseurl }}/">
+			<h3 class="nav-title">{{ site.title }}</h3>
+		</a>
+		<ul>
+			<li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+			<li><a href="{{ '/publications' | prepend: site.baseurl }}">Publications</a></li>
+			<li><a href="{{ site.baseurl }}/">Posts</a></li>
+			<li><a href="https://www.r-bloggers.com" target='blank'>R Bloggers</a></li>
+			<li>
+				<form action="../search.html" method="get" >
+					<input type="search" name="query" id="search_box" placeholder="Search..." class="form-control-sm bg-light">
+				</form>
+			</li>
+		</ul>
+	</div>
 </nav>
