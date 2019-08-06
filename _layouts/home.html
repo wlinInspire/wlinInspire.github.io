@@ -2,25 +2,84 @@
 layout: default
 ---
 
-<div class="catalogue">
-	{% for post in paginator.posts %}
-		<a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-			<div>
-				<time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-				<h1 class="catalogue-title">{{ post.title }}</h1>
-				<div class="catalogue-line"></div>
-				<p>{{ post.excerpt | truncatewords: 30 }}</p>
-			</div>
-		</a>
-	{% endfor %}
-</div>
+<p>
+	<img style="float: left; margin-right:10px;  margin-top:5px; width:20%; border-radius: 25px;" 
+	src="https://avatars1.githubusercontent.com/u/16128658?s=400&u=a972d7bc5d3f8ee44ceca13de5b8d9cfe2044531&v=4" width="100">
+	
+	Wei is currently a Principal Data Scientist at <a href="https://www.openpath.com/" target="_blank">OpenPath</a>, Culver City, CA from 2019-07
+	developing new generation AI enabled smart access control device.
+	He was a Senior Data Scientist at <a href="https://www.helloinspire.com/" target="_blank">Inspire Energy</a>, Santa Monica, CA 
+	from 2015-11 to 2019-06 working data analytics, optimization, and predictive modeling. 
+	Wei was a staff firmware engineer at <a href="https://www.wdc.com/" target="_blank">Western Digital</a> from 2014-01 to 2015-11 
+	developing adaptive filtering and sensor fusion algorithms for active hard drive vibration control.</p>
+	
+	<p>Wei research focus include artificail intelligence, machine learning, data analytics, 
+		multi-agent systems, game theory, and optimization.</p>
 
-<div class="pagination">
-	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-	{% endif %}
-	{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-	{% endif %}
-	<span>{{ paginator.page }}</span>
-</div>
+	<p>Wei received his Ph.D. in electrical engineering from University of Central Florida, FL in Dec 2013, 
+		master in electrical engineering from Boston University, MA in May 2009,
+		 and bachelor in automation from Tongji University, Shanghai, China in Jun 2007. 
+		 Wei is also a 2003 alumni of Xiaoshi Middle School, Ningbo, Zhejiang, China.</p>
+	
+	<p>Wei currently lives in Los Angeles, CA with his wife, Kun Li, daughter, Kemi, and son, Yukai.</p>
+
+<hr>
+
+<p><a href="https://scholar.google.com/citations?user=k6ZuWzUAAAAJ&amp;hl=en" target="_blank">Google Scholar</a></p>
+
+<h4 id="journal">Journal</h4>
+<ol>
+  <li>Wei Lin, Chaoyong Li, Zhihua Qu, and Marwan Simaan,
+“Distributed Formation Control with Open-Loop Nash Strategy”,
+<em>Automatica</em>, vol.106, pp.266-273, 2019
+<a href="https://www.researchgate.net/publication/333478243_Distributed_formation_control_with_open-loop_Nash_strategy" target="_blank">Link</a></li>
+  <li>Wei Lin, Zhihua Qu, and Marwan Simaan,
+“Nash strategies for pursuit-evasion differential games involving limited observations”,
+<em>IEEE Transactions on Aerospace and Electronic Systems</em>, vol. 51, no. 2, pp. 1347-1356, 2015
+<a href="http://www.eecs.ucf.edu/~qu/Journals/2015%20IEEE%20TAES.pdf" target="_blank">Link</a></li>
+  <li>Wei Lin, “Distributed UAV formation control using differential game approach”,
+<em>Aerospace Science and Technology</em>, vol. 35, pp. 54-62, 2014
+<a href="https://www.researchgate.net/publication/260805171_Distributed_UAV_formation_control_using_differential_game_approach" target="_blank">Link</a></li>
+  <li>Ali Maknouninejad, Wei Lin, Hendro Harno, Zhihua Qu, and Marwan Simaan,
+“Cooperative control for self-organizing microgrids and game strategies for optimal dispatch of distributed renewable generations”,
+<em>Energy Systems</em>, vol. 3 no. 1, pp. 23-60, 2012
+<a href="https://www.researchgate.net/profile/Ali_Maknouninejad/publication/257794979_Cooperative_control_for_self-organizing_microgrids_and_game_strategies_for_optimal_dispatch_of_distributed_renewable_generations/links/0a85e539e01d7a9ec6000000/Cooperative-control-for-self-organizing-microgrids-and-game-str" target="_blank">Link</a></li>
+</ol>
+
+<h4 id="conference">Conference</h4>
+<ol>
+  <li>Wei Lin, Zhihua Qu, and Marwan Simaan,
+“Distributed game strategy design with application to multi-agent formation control”,
+<em>IEEE 53rd Annual Conference on Decision and Control (CDC)</em>, pp. 433-438, 2014
+<a href="https://www.researchgate.net/profile/Wei_Lin42/publication/279206363_Distributed_game_strategy_design_with_application_to_multi-agent_formation_control/links/5590f2db08aed6ec4bf681ad.pdf" target="_blank">Link</a></li>
+  <li>Wei Lin, Zhihua Qu, and Marwan Simaan,
+“Multi-pursuer single-evader differential games with limited observations”,
+<em>American Control Conference (ACC)</em>, pp. 2711-2716, 2013
+<a href="https://www.researchgate.net/profile/Wei_Lin42/publication/261199648_Multi-pursuer_single-evader_differential_games_with_limited_observations/links/5590f26308ae15962d8c6cb8.pdf" target="_blank">Link</a></li>
+  <li>Ali Maknouninejad, Wei Lin, and Zhihua Qu,
+“Optimum design and analysis of the cooperative control, applied to the distributed generators control in smart grids”,
+<em>IEEE PES Innovative Smart Grid Technologies (ISGT)</em>, pp. 1-6, 2013
+<a href="https://s3.amazonaws.com/academia.edu.documents/32587375/Optimum.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&amp;Expires=1514159085&amp;Signature=EZ6cvcrc2bMPSO301HLIyfaNFhc%3D&amp;response-content-disposition=inline%3B%20filename%3DOptimum_Design_and_Analysis_of_the_Coope.pdf" target="_blank">Link</a></li>
+  <li>Wei Lin, Zhihua Qu, and Marwan Simaan,
+“A Design of entrapment strategies for the distributed pursuit-evasion game”,
+<em>18th IFAC World Congress</em>, pp. 9334-9339, 2011
+<a href="http://folk.ntnu.no/skoge/prost/proceedings/ifac11-proceedings/data/html/papers/0964.pdf" target="_blank">Link</a></li>
+  <li>Wei Lin, Zhihua Qu, Marwan Simaan,
+“A design of distributed nonzero-sum Nash strategies”,
+<em>49th IEEE Conference on Decision and Control (CDC)</em>, pp. 6305-6310, 2010
+<a href="https://www.researchgate.net/profile/Wei_Lin42/publication/224220408_A_Design_of_Distributed_Nonzero-Sum_Nash_Strategies/links/558ae28408ae48b7b56d9c28.pdf" target="_blank">Link</a></li>
+</ol>
+
+<h4 id="phd-dissertation">Dissertation</h4>
+<ol>
+  <li>Wei Lin,
+“Differential Games For Multi-agent Systems Under Distributed Information”,
+<em>University of Central Florida</em>, Dec 2013 <a href="http://stars.library.ucf.edu/etd/2763/" target="_blank">Link</a></li>
+</ol>
+
+<h4 id="project">Project</h4>
+<ol>
+  <li>Wei Lin and Michael Caramanis,
+“Optimal Energy Purchase in different Markets for Electric Automobile”,
+<em>Boston University</em>, 2009 <a href="/papers/Optimal Energy Purchase in different Markets for Electric Automobile.pdf" target="_blank">Link</a></li>
+</ol>
