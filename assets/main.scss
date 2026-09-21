@@ -5,23 +5,142 @@
 @import 'tale';
 
 .nav-title {
-    color: dodgerblue; 
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: -0.03em;
 }
 
 a:hover {
     text-decoration: none;
-    color: black;
 }
 
 body {
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !important;
 }
 
 main {
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 .svg-icon.medium {
     border-radius:30px;
+}
+
+/* ---- Modern profile hero ---- */
+.profile-hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2.5rem 0 1.5rem;
+    flex-wrap: wrap;
+}
+
+.profile-hero img.avatar {
+    float: none;
+    margin: 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px $shadow-color, 0 0 0 4px $white, 0 0 0 5px $grey-2;
+    object-fit: cover;
+}
+
+.profile-hero .profile-text {
+    flex: 1;
+    min-width: 260px;
+}
+
+.profile-text h1 {
+    font-size: 1.9rem;
+    margin: 0 0 .5rem;
+}
+
+.profile-text .tagline {
+    color: $default-tint;
+    font-size: 1.05rem;
+    margin: 0 0 1rem;
+}
+
+.card {
+    background: $grey-3;
+    border: 1px solid $grey-2;
+    border-radius: 14px;
+    padding: 1.5rem 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid $grey-2;
+}
+
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: 1rem 0 0;
+}
+
+.tag {
+    background: rgba(37, 99, 235, .08);
+    color: $accent;
+    border-radius: 999px;
+    padding: .3rem .85rem;
+    font-size: .85rem;
+    font-weight: 600;
+    font-family: $sans-serif;
+}
+
+.timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline li {
+    position: relative;
+    padding: 0 0 1.5rem 1.5rem;
+    border-left: 2px solid $grey-2;
+}
+
+.timeline li:last-child {
+    padding-bottom: 0;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $accent;
+}
+
+.timeline .role {
+    font-weight: 700;
+    color: $default-shade;
+}
+
+.timeline .meta {
+    color: $default-tint;
+    font-size: .9rem;
+    display: block;
+    margin-bottom: .25rem;
+}
+
+.pub-list ol {
+    padding-left: 1.25rem;
+}
+
+.pub-list li {
+    margin-bottom: .85rem;
+    line-height: 1.5;
 }

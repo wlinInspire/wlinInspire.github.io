@@ -8,20 +8,24 @@ body {
   color: $default-color;
   margin: 0;
   padding: 0;
+  background: $white;
 }
 
 html {
   font-family: $serif-primary;
-  font-size: 14px;
+  font-size: 15px;
   overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   @media (min-width: 600px) {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
 body {
   -webkit-text-size-adjust: 100%;
+  line-height: 1.65;
 }
 
 h1,
@@ -32,12 +36,19 @@ h5,
 h6 {
   color: $default-shade;
   font-family: $sans-serif;
-  line-height: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 a {
   color: $blue;
   text-decoration: none;
+  transition: color .15s ease-out;
+
+  &:hover {
+    color: $accent-2;
+  }
 }
 
 blockquote {
